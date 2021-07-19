@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.example.hibernatequickstart.entity">
+    <class name="User" table="user">
+        <meta attribute="class-description">
+            this user class is used to learn hibernate
+        </meta>
+        <id name="id" type="java.lang.Long" column="id">
+            <generator class="identity"/>
+        </id>
+        <property name="name" type="java.lang.String" column="name"/>
+        <property name="age" type="java.lang.Integer" column="age"/>
+        <property name="sex" type="java.lang.String" column="sex"/>
+    </class>
+</hibernate-mapping>
