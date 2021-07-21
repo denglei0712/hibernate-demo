@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.example.hibernatequickstart.entity.Dept">
+        <table name="dept" schema="test" catalog=""/>
+        <attributes>
+            <id name="deptno">
+                <column name="deptno"/>
+            </id>
+            <basic name="dname">
+                <column name="dname"/>
+            </basic>
+            <basic name="loc">
+                <column name="loc"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

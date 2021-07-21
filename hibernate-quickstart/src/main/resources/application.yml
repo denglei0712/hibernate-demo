@@ -11,4 +11,4 @@ spring:
           auto: update
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
     show-sql: true
-    mapping-resources: hibernate/User.Hbm.xml, hibernate/Book.hbm.xml
+    mapping-resources: hibernate/User.Hbm.xml, hibernate/Book.hbm.xml, hibernate/Dept.hbm.xml, hibernate/Emp.hbm.xml

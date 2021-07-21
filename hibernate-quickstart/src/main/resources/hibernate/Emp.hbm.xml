@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="com.example.hibernatequickstart.entity.Emp">
+        <table name="emp" schema="test" catalog=""/>
+        <attributes>
+            <id name="empno">
+                <column name="empno"/>
+            </id>
+            <basic name="ename">
+                <column name="ename"/>
+            </basic>
+            <basic name="job">
+                <column name="job"/>
+            </basic>
+            <basic name="mgp">
+                <column name="mgp"/>
+            </basic>
+            <basic name="hiredate">
+                <column name="hiredate"/>
+            </basic>
+            <basic name="sal">
+                <column name="sal"/>
+            </basic>
+            <basic name="comm">
+                <column name="comm"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
